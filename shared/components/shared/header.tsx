@@ -55,9 +55,9 @@ export const Header: React.FC<Props> = ({ hasSearch = true, hasCart= true, class
                 {/*Левая часть*/}
               <Link href="/">
               <div>
-                    <Image src="https://upload.wikimedia.org/wikipedia/commons/2/24/LEGO_logo.svg" alt="Logo" width={35} height={35} />
+                    <Image src="/logo.png" alt="Logo" width={35} height={35} />
                     <div>
-                        <h1 className="text-2xl uppercase font-black">Next Pizza</h1>
+                        <h1 className="text-2xl uppercase font-black">Fast Pizza</h1>
                         <p className="text-sm text-gray-400 leading-3">вкуснее уже некуда</p>
                     </div>
                 </div>

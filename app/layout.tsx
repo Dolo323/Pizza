@@ -12,7 +12,7 @@ const nunito = Nunito({
 
 // Metadata for the root application (uses Next.js Metadata API)
 export const metadata: Metadata = {
-  title: 'Next Pizza | Главная',
+  title: 'Fast Pizza | Главная',
 };
 
 export default function RootLayout({

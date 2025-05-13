@@ -104,7 +104,7 @@ export async function createOrder(data: CheckoutFormValues) {
 
     await sendEmail(
   data.email,
-  "Next Pizza / Оплатите заказ #" + order.id,
+  "Fast Pizza / Оплатите заказ #" + order.id,
   React.createElement(PayOrderTemplate, {
     orderId: order.id,
     totalAmount: order.totalAmount,
@@ -185,7 +185,7 @@ export async function registerUser(body: Prisma.UserCreateInput) {
 
   await sendEmail(
   createdUser.email,
-  'Next Pizza / 📝 Подтверждение регистрации',
+  'Fast Pizza / 📝 Подтверждение регистрации',
   React.createElement(VerificationUserTemplate, {
     code: code,
   })

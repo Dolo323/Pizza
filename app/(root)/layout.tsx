@@ -4,7 +4,7 @@ import { Suspense } from 'react';
 
 
 export const metadata: Metadata = {
-  title: 'Next Pizza | Главная',
+  title: 'Fast Pizza | Главная',
 };
 
 export default function HomeLayout({
